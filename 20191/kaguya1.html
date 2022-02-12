@@ -1,22 +1,205 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
-<!DOCTYPE html PUBLIC>
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
+<meta charset="utf-8">
 <title>카구야 정보</title>
+<style>
+	
+	@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nanum+Gothic&family=Noto+Sans+JP&family=Poppins&display=swap');
+    	* {
+      		font-family: 'Do Hyeon', 'Noto Sans JP', 'Poppins', sans-serif;
+		
+    	}
+
+	.infotable > table {
+		width: 810px;
+		color: #ff0000;
+	}
+
+	.in-text {
+		background-color: white;
+		color: black;
+		font-weight: lighter;
+		font-family: 'Nanum Gothic'', sans-serif;
+	}
+
+	table {
+		border-color: black;
+		background-color: black;
+		text-align:	center;
+		font-size: 22px;
+	}
+	
+	
+	.infotable > th {
+		border-color: white;
+	}
+	
+	.subtable > table {
+		width: 810px;
+		color: #ff0000;
+	}
+	
+	.bmdwd {
+    		width: 300px;
+    		height: 40px;
+    		border: 2px solid #e8344e;
+    		text-decoration: none;
+    		text-align: center;
+    		line-height: 40px;
+    		color: #e8344e;
+    		font-weight: bold;
+    		border-radius: 40px;
+		font-size: 20px;
+	}
+
+	.landtdl {
+    		width: 300px;
+    		height: 40px;
+    		border: 2px solid #e8344e;
+    		text-decoration: none;
+    		text-align: center;
+    		line-height: 40px;
+    		color: #e8344e;
+    		font-weight: bold;
+    		border-radius: 1000px;
+		font-size: 20px;
+	}
+
+		
+		
+</style>
 </head>
 <body>
-    <table border="1">
-	<th>테이블</th>
-	<th>만들기</th>
+    <table class="titletable" border="1">
+	<th><font color="white"><font size="5px">카구야님은 <font color="#ff0000">고백<font color="white">받고 싶어<br><font size="2px">かぐや様は<font color="#ff0000">告<font color="white">らせたい <font color="#ff0000">〜天才たちの恋愛頭脳戦〜<br><font color="white">Kaguya-sama: <font color="#ff0000">Love Is War</font></th>
 	<tr><!-- 첫번째 줄 시작 -->
 	    <td><img src="img_main.png"></td>
 	</tr><!-- 첫번째 줄 끝 -->
-	<tr><!-- 두번째 줄 시작 -->
-	    <td>첫번째 칸</td>
-	    <td>두번째 칸</td>
-	</tr><!-- 두번째 줄 끝 -->
     </table>
+    <div class="infotable">
+    	<table border="0.1">
+			<th>정보</th>
+			<th>내용</th>
+		<tr>
+	    		<td>장르</td>
+	    		<td class="in-text">러브 코미디, 개그</td>
+		</tr>
+		<tr>
+	    		<td>원작</td>
+	    		<td class="in-text">아카사카 아카</td>
+		</tr>
+		<tr>
+	    		<td>감독</td>
+	    		<td class="in-text">하타케야마 마모라</td>
+		</tr>
+		<tr>
+	    		<td>시리즈 구성</td>
+	    		<td class="in-text">나카니시 야스히로</td>
+		</tr>
+		<tr>
+	    		<td>캐릭터 디자인</td>
+	    		<td class="in-text">야히로 유코</td>
+		</tr>
+		<tr>
+	    		<td>총 작화 감독</td>
+	    		<td class="in-text">야히로 유코<br>야코 히로시<br>하리바 유코<br>토리이 타카시</td>
+		</tr>
+    </table>
+    </div>
+    <h1>자막 다운로드</h1>
+ 	<div class="infotable">
+    		<table border="0.1">
+			<th>자막 제작자</th>
+			<th>자막 다운로드</th>
+			<th>비고</th>
+		<tr>
+	    		<td class="in-text">별명따위</td>
+	    		<td class="in-text"><a class="bmdwd" href="https://doc-00-30-docs.googleusercontent.com/docs/securesc/e36psbc1aufthvfu00cts08468ogp557/aoaltb88cr0qpdihufl9ms1h53seq5c3/1644648975000/13216596011768497248/05231702912632959325/1Qd3G3d5OfUdjvDQTSx3d74JcBIAWBZqI?e=download&authuser=0&nonce=fctuke9213sm6&user=05231702912632959325&hash=fo3f7q3hlnrc9kgbq876ekl5u8dbmtg8">다운로드</a></td>
+			<td class="in-text">TVA판, BD미지원</td>
+		</tr>
+		<tr>
+	    		<td class="in-text">LAND+T</td>
+	    		<td class="in-text"><a class="landtdl" href="clubreku.github.io">다운로드</td>
+			<td class="in-text">아직 미완성</td>
+		</tr>
+		</table>
+	</div>
+     <h1 class="episodelisttitlecard">회차 목록</h1>
+     <h2>제보 시  유의사항: 이 회차목록의 번역 회차명과 방영일은 모두 국내 정식 방영사인 ANIMAX Korea를 기준으로 합니다.<br>이를 유의하지 않고 보낸 제보메일은 모두 반환됩니다.</h2>
+    <div class="eplisttable">
+    	<table border="0.1">
+			<th>홧수</th>
+			<th>회차명</th>
+			<th>방영날짜</th>
+		<tr>
+	    		<td class="in-text">1화</td>
+	    		<td class="in-text">「映画に誘わせたい」<br>영화 보러 가자고 해줬으면 해<br>「かぐや様は止められたい」<br>카구야 님은 말려주길 원해<br>「かぐや様はいただきたい」<br>카구야 님은 먹고 싶어</td>
+			<td class="in-text">日: 2019.01.12.<br>韓: 2019.01.15.</td>
+		</tr>
+		<tr>
+	    		<td class="in-text">2화</td>
+	    		<td class="in-text">「かぐや様は交換したい」<br>카구야 님은 교환하고 싶어<br>「藤原ちゃんは出かけたい」<br>후지와라는 나가고 싶어<br>「白銀御行は隠したい」<br>시로가네 미유키는 숨기고 싶어</td>
+			<td class="in-text">일: 2019. 01. 22</td>
+		</tr>
+		<tr>
+	    		<td class="in-text">3화</td>
+	    		<td class="in-text">「白銀御行はまだしてない」<br>시로가네 미유키는 아직 하지 않았다<br>「かぐや様は当てられたい」<br>카구야님은 맞혀 줬으면 해<br>「かぐや様は歩きたい」<br>카구야 님은 걷고 싶어</td>
+			<td class="in-text">日: 2019.01.26.<br>韓: 2019.01.29.</td>
+		</tr>
+		<tr>
+	    		<td class="in-text">러브 코미디, 개그</td>
+	    		<td class="in-text">나카니시 야스히로</td>
+			<td class="in-text">러브 코미디, 개그</td>
+		</tr>
+		<tr>
+	    		<td class="in-text">러브 코미디, 개그</td>
+	    		<td class="in-text">야히로 유코</td>
+			<td class="in-text">러브 코미디, 개그</td>
+		</tr>
+		<tr>
+	    		<td class="in-text">러브 코미디, 개그</td>
+			<td class="in-text">러브 코미디, 개그</td>
+	    		<td class="in-text">야히로 유코<br>야코 히로시<br>하리바 유코<br>토리이 타카시</td>
+		</tr>
+    </table>
+    </div>
+	<script>
+
+		// 클립보드로 복사하는 기능을 생성
+		function copyToClipboard(elementId) {
+
+  		// 글을 쓸 수 있는 란을 만든다.
+  		var aux = document.createElement("input");
+
+  		// 지정된 요소의 값을 할당 한다.
+  		aux.setAttribute("value", document.getElementById(elementId).innerHTML);
+
+  		// bdy에 추가한다.
+ 		 document.body.appendChild(aux);
+
+  		// 지정된 내용을 강조한다.
+  		aux.select();
+
+  		// 텍스트를 카피 하는 변수를 생성
+ 		 document.execCommand("copy");
+
+ 		 // body 로 부터 다시 반환 한다.
+  		document.body.removeChild(aux);
+
+		}
+	</script>
+
+		
+		<!--복사할 텍스트 만들기-->
+		<font color="white"><p id="text1">https://raw.githubusercontent.com/mymay0510/luckycraft/main/kaishaseiboexample.txt</p>
+		<font color="black"><h1>아래 버튼을 눌러 회차 예시 주소를 복사하십시오.</h1>
+
+  		<!--// 버튼 만들기-->
+		<button onclick="copyToClipboard('text1')">텍스트 복사하기</button>
+
+	
+    <img src="firstpage.png">
+
 </body>
 </html>
